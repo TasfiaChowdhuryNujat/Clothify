@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Clothify</string>
+    <string name="cloth_order">Cloth Order</string>
+    <string name="select_clothing_type">Select Clothing Type:</string>
+    <string name="casual">Casual</string>
+    <string name="formal">Formal</string>
+    <string name="traditional">Traditional</string>
+    <string name="select_color_preferences">Select Color Preferences:</string>
+    <string name="red">Red</string>
+    <string name="blue">Blue</string>
+    <string name="green">Green</string>
+    <string name="rate_clothing_suggestions">Rate Clothing Suggestions:</string>
+    <string name="preferred_warmth">Preferred Warmth:</string>
+    <string name="sustainable_options">Sustainable Options:</string>
+    <string name="submit">Submit</string>
+    <string name="welcome_to_clothify">Welcome to Clothify</string>
+    <string name="decrease">-</string>
+    <string name="increase">+</string>
+</resources>

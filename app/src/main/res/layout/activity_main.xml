@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/backgroundImage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/shop"
+        android:alpha="0.80"/>
+
+    <TextView
+        android:id="@+id/welcomeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/welcome_to_clothify"
+        android:textSize="40sp"
+        android:textStyle="italic"
+        android:textColor="#0B1E06"
+        android:layout_centerInParent="true"
+        android:gravity="center" />
+
+    <Button
+        android:id="@+id/continueButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Continue"
+        android:layout_below="@id/welcomeText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:padding="10dp"
+        android:textSize="35sp"
+        android:backgroundTint="#21C2F3"
+        android:textColor="#0C190C"
+        tools:ignore="HardcodedText" />
+
+</RelativeLayout>

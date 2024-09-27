@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#CCCCFF"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cloth_order"
+        android:textSize="24sp"
+        android:layout_gravity="center"
+        android:paddingBottom="16dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/select_clothing_type" />
+
+    <RadioGroup
+        android:id="@+id/radioGroupClothing"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/radioCasual"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/casual" />
+        <RadioButton
+            android:id="@+id/radioFormal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/formal" />
+        <RadioButton
+            android:id="@+id/radioTraditional"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/traditional" />
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/select_color_preferences" />
+
+    <CheckBox
+        android:id="@+id/checkboxRed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/red" />
+    <CheckBox
+        android:id="@+id/checkboxBlue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/blue" />
+    <CheckBox
+        android:id="@+id/checkboxGreen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/green" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/rate_clothing_suggestions" />
+
+    <RatingBar
+        android:id="@+id/ratingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:numStars="5"
+        android:stepSize="1"
+        android:progressTint="@color/fire_brick_500"
+        android:progressBackgroundTint="#94867b"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/preferred_warmth" />
+
+    <SeekBar
+        android:id="@+id/seekBarWarmth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="10" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sustainable_options" />
+
+    <Switch
+        android:id="@+id/switchSustainable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"/>
+
+    <!-- Quantity Control Section -->
+    <TextView
+        android:id="@+id/quantityTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Quantity: 0"
+        android:textSize="18sp"
+        android:layout_marginTop="16dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="8dp">
+
+        <Button
+            android:id="@+id/buttonDecrease"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/decrease" />
+
+        <Button
+            android:id="@+id/buttonIncrease"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/increase" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/buttonSubmit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/submit" />
+
+</LinearLayout>
